@@ -1,0 +1,113 @@
+body {
+    background: hsl(222, 26%, 31%);
+    width: 25%;
+    height: 85vh;
+    margin: 5% 35% 5% 35%;
+    font-family: 'League Spartan', sans-serif;
+    color: rgba(221, 214, 214, 0.959);
+   
+}
+
+.container_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end ;
+    height: 10%;
+    margin:0 5%;
+}
+
+.container_theme {
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.5rem;
+}
+
+.theme{
+    padding: 5px;
+}
+
+.container_theme2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theme_numeros{
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+}
+
+.button_background{
+    background: hsl(223, 31%, 20%);
+    border-radius: 15px;
+    width: 45px;
+    height: 20px;
+}
+
+.button_theme {
+    background:  hsl(6, 63%, 50%);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin: 5px;
+}
+
+.container_exibicao{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+    height: 10%;
+    background: hsl(224, 36%, 15%);
+    margin:5%;
+    border-radius: 5px;
+    }
+
+.resultado{
+    padding: 5px;
+    font-size: 1.75rem;
+}
+
+.container_buttons{
+    background: hsl(223, 31%, 20%);
+    margin: 5%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.fileiras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numeros{
+    width: 20%;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: inset 0em -0.2em   rgba(26, 24, 24, 0.699);
+    background: hsl(30, 25%, 89%);
+    color: hsl(224, 28%, 35%); 
+}
+
+.del{
+    background: hsl(224, 28%, 35%);
+    color: hsl(30, 25%, 89%);
+}
+
+.reset{
+    background: hsl(224, 28%, 35%);
+    color: hsl(30, 25%, 89%);
+    width: 45%;
+}
+
+.igual{
+    background: hsl(6, 63%, 50%);
+    color: hsl(30, 25%, 89%);
+    width: 45%;
+}
